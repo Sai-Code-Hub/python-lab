@@ -106,3 +106,8 @@ print(alphabet[2:9:2])
 x= '3'
 y= '5'
 print(x+y)
+
+x= 'Hello World!'
+x.upper()
+x.lower()
+print(x)
