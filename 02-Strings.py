@@ -14,6 +14,7 @@ In this lecture we'll learn about the following:
 4.) String Properties
 5.) String Methods
 6.) Print Formatting '''
+from operator import length_hint
 
 # Creating strings
 print('hello')
@@ -40,11 +41,18 @@ print(s[::-1])   # Reversed string: 'dlroW olleH'
 
 #string Immutability Example
 '''<------------------------------->'''
-s = 'Hello World'
+s = 'Hello World!'
 # s[0] = 'x'  # ❌ This causes an error
 # So instead, we create a new string
+#print(s+ " it is beautiful outside.")
 s = 'x' + s[1:]
 print(s)        # Output: 'xello World'
+
+last_letters = "Sam"
+print(last_letters)
+print(last_letters[1:])
+last_letters = 'p'+ last_letters[1:]
+print(last_letters)
 
 #Concatination & Repetition
 s = 'Hello'
@@ -62,7 +70,39 @@ print(len(s))            # 11
 print(s.split())         # ['Hello', 'World']
 print(s.split('W'))      # ['Hello ', 'orld']
 
+x= "Hello Work Concatenate me"
+print(x)
+print(x.split())
+print(x.upper())
 
 #Print Formatting
 print("Insert another string with curly brackets: {}".format("The inserted string"))
 
+
+mystring = "Hello World"
+#print(mystring)
+
+#print(mystring.center(10))
+#print(mystring[0])
+print(mystring[9])
+print(len(mystring))
+print(mystring[9:12])
+print(mystring[-2])
+
+alphabet = "asdfghjkryte"
+print(alphabet)
+print(len(alphabet))
+print(alphabet.upper())
+print(alphabet.lower())
+print(alphabet[2:7])
+print(alphabet[:2])
+print(alphabet[::])
+print(alphabet[::2])
+print(alphabet[::3])
+print(alphabet[::-1])
+print(alphabet[2:7:2])
+print(alphabet[2:9:2])
+
+x= '3'
+y= '5'
+print(x+y)
