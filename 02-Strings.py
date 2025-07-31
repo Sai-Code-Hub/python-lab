@@ -19,6 +19,10 @@ In this lecture we'll learn about the following:
 print('hello')
 print("This is also a string")
 print("String built with double quotes")
+print('Hello /n World')
+print('Hello /tWorld')
+
+print(len("5"))
 
 # Handling quotes inside strings
 print("Now I'm ready to use the single quotes inside a string!")
