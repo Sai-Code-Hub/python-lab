@@ -40,11 +40,12 @@ print(a)
 # Variable Type Checking
 print(type(a))
 
-a1=30.1
-a= (1, 2)
+a1 =30.1
+a = (1, 2)
 print(type(a1))
 print(type(a))
 # Simple Exercise
+
 my_income = 100
 tax_rate = 0.1
 my_taxes = my_income * tax_rate
