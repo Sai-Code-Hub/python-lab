@@ -103,7 +103,7 @@ matrix = [lst_1, lst_2, lst_3]
 print("Matrix:", matrix)
 
 print("First row of matrix:", matrix[0])
-print("second row of matrix:", matrix[1])
+print("second row of matrix:", matrix[1]) # my Code snippet
 print("First element of first row:", matrix[0][0])
 
 # 5. List Comprehensions
