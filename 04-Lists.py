@@ -11,6 +11,9 @@
 # 1. Creating Lists
 my_list = [1, 2, 3]
 print("my_list:", my_list)
+print(len(my_list))
+print(my_list[:-2])
+
 
 my_list = ['A string', 23, 100.232, 'o']
 print("my_list with mixed types:", my_list)
@@ -21,6 +24,15 @@ my_list = ['one', 'two', 'three', 4, 5]
 print("Element at index 0:", my_list[0])
 print("From index 1 onward:", my_list[1:])
 print("Up to index 3 (exclusive):", my_list[:3])
+
+#2.1 Indexing & Slicing
+my_list1 = ['one', 'two', 'three']
+print("Element at index 0:", my_list1[0])
+another_list = ['four', 'five', 'six']
+print(my_list1 + another_list)
+new_list=my_list1+another_list
+print("new_list:", new_list)
+
 
 # Concatenation
 print("Concatenated list:", my_list + ['new item'])
